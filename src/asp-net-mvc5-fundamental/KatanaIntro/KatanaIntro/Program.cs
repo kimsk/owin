@@ -27,7 +27,7 @@ namespace KatanaIntro
     {
         public void Configuration(IAppBuilder app)
         {
-            app.Run(ctx => ctx.Response.WriteAsync("Hello World!"));
+            app.UseWelcomePage();
         }
     }
 }
