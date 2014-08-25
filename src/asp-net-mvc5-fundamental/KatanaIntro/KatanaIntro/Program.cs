@@ -30,8 +30,30 @@ namespace KatanaIntro
     {
         public void Configuration(IAppBuilder app)
         {
-            // app.Use<HelloWorldComponent>();
+            //app.Run(ctx => ctx.Response.WriteAsync("Hello World!"));
             app.UseHelloWorldComponent();
+
+            app.Use(async (env, next) =>
+            {
+                foreach (var kv in env.Environment)
+                {
+                    Console.WriteLine("{0} : {1}", kv.Key, kv.Value);
+                }
+
+                await next();
+            });
+
+            app.Use(async (env, next) =>
+            {
+                Console.WriteLine("Requesting: " + env.Request.Path);
+
+                await next();
+
+                Console.WriteLine("Response: " + env.Response.StatusCode);
+            });
+
+            app.Use<HelloWorldComponent>();
+            
         }
     }
 
@@ -52,20 +74,15 @@ namespace KatanaIntro
             _next = next;
         }
 
-        public Task Invoke(IDictionary<string, object> environment)
+        public async Task Invoke(IDictionary<string, object> environment)
         {
-            foreach (var kv in environment)
-            {
-                Console.WriteLine("{0} : {1}", kv.Key, kv.Value);
-            }
-
             var response = environment["owin.ResponseBody"] as Stream;
             using (var writer = new StreamWriter(response))
             {
-                return writer.WriteLineAsync("Hellooo!!");
+                await writer.WriteLineAsync("Hellooo!!");
             }
 
-            //await _next(environment);
+            await _next(environment);
         }
     }
 }
