@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
 using Microsoft.Owin.Hosting;
 using Owin;
 
@@ -30,19 +31,7 @@ namespace KatanaIntro
     {
         public void Configuration(IAppBuilder app)
         {
-            //app.Run(ctx => ctx.Response.WriteAsync("Hello World!"));
-            app.UseHelloWorldComponent();
-
-            app.Use(async (env, next) =>
-            {
-                foreach (var kv in env.Environment)
-                {
-                    Console.WriteLine("{0} : {1}", kv.Key, kv.Value);
-                }
-
-                await next();
-            });
-
+            // middleware
             app.Use(async (env, next) =>
             {
                 Console.WriteLine("Requesting: " + env.Request.Path);
@@ -52,8 +41,22 @@ namespace KatanaIntro
                 Console.WriteLine("Response: " + env.Response.StatusCode);
             });
 
+            ConfigureWebApi(app);
+
             app.Use<HelloWorldComponent>();
-            
+            app.Use<HelloWorldComponent>();
+
+        }
+
+        private void ConfigureWebApi(IAppBuilder app)
+        {
+            var config = new HttpConfiguration();
+            config.Routes.MapHttpRoute(
+                "DefaultApi",
+                "api/{controller}/{id}",
+                new { id = RouteParameter.Optional });
+
+            app.UseWebApi(config);
         }
     }
 
