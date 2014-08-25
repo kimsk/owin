@@ -30,6 +30,15 @@ namespace KatanaIntro
     {
         public void Configuration(IAppBuilder app)
         {
+            // app.Use<HelloWorldComponent>();
+            app.UseHelloWorldComponent();
+        }
+    }
+
+    public static class AppBuilderExtensions
+    {
+        public static void UseHelloWorldComponent(this IAppBuilder app)
+        {
             app.Use<HelloWorldComponent>();
         }
     }
