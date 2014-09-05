@@ -31,6 +31,7 @@ namespace KatanaIntro
     {
         public void Configuration(IAppBuilder app)
         {
+            
             // middleware
             app.Use(async (env, next) =>
             {
@@ -46,6 +47,9 @@ namespace KatanaIntro
             app.Use<HelloWorldComponent>();
             app.Use<HelloWorldComponent>();
 
+            //app.Use((env, next) => env.Response.WriteAsync("Hello app.Use!"));
+
+            //app.Run(ctx => ctx.Response.WriteAsync("Hello app.Run!"));
         }
 
         private void ConfigureWebApi(IAppBuilder app)
