@@ -23,6 +23,7 @@ OWIN
 
 ### No-IIS
 - [OWIN and NGINX](http://iobservable.net/blog/2013/08/01/owin-and-nginx/)
+- [Use OWIN to Self-Host ASP.NET Web API 2](http://www.asp.net/web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api)
 
 ### Misc.
 - [Microsoft’s new Web Server, Katana, Hits Version 3](http://www.infoq.com/news/2014/08/Katana-3?utm_source=infoqEmail&utm_medium=WeeklyNL_EditorialContentDotNet&utm_campaign=09022014news)
