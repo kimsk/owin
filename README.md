@@ -42,6 +42,6 @@ OWIN
 - [dyfrig - F# support for the Open Web Interface for .NET (OWIN)](https://github.com/fsprojects/dyfrig)
 - [taliesin - OWIN routing middleware using F# Agents](https://github.com/frank-fs/taliesin)
 - [Lightweight websites with F#](http://cockneycoder.wordpress.com/2014/09/03/lightweight-websites-with-f/)
-- [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp/blob/master/README.md)
+- [Todo-Backend implementation in F# using Dyfrig and OWIN.](https://github.com/panesofglass/TodoBackendFSharp/blob/master/README.md)
 
 
