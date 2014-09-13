@@ -11,6 +11,7 @@ OWIN
 - [Getting Started with the Katana Project](http://msdn.microsoft.com/en-us/magazine/dn451439.aspx)
 - [The Katana Project - OWIN for ASP.NET](http://channel9.msdn.com/Shows/Web+Camps+TV/The-Katana-Project-OWIN-for-ASPNET)
 - [OWIN - Run your C# for the web anywhere](http://vimeo.com/57007898)
+- [The future is now – OWIN and multi-hosting ASP.NET web applications](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
 
 ### Authentication
 - [OWIN Authentication series by Anders Abel](http://coding.abel.nu/series/owin-authentication/)
