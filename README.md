@@ -22,6 +22,7 @@ OWIN
 - [A primer on OWIN cookie authentication middleware for the ASP.NET developer](http://brockallen.com/2013/10/24/a-primer-on-owin-cookie-authentication-middleware-for-the-asp-net-developer/)
 - [Basic Authentication with ASP.NET Web API Using OWIN Middleware](http://lbadri.wordpress.com/2013/07/13/basic-authentication-with-asp-net-web-api-using-owin-middleware/)
 - [OWIN Authentication Middleware for Hawk in Thinktecture.IdentityModel.45](http://lbadri.wordpress.com/2013/08/03/owin-authentication-middleware-for-hawk-in-thinktecture-identitymodel-45/)
+- [Thinktecture IdentityModel](https://github.com/thinktecture/Thinktecture.IdentityModel)
 
 ### Middleware
 - [How to write OWIN middleware in 5 different steps](http://benfoster.io/blog/how-to-write-owin-middleware-in-5-different-steps)
@@ -40,5 +41,6 @@ OWIN
 - [frost](https://github.com/xyncro/frost)
 - [dyfrig](https://github.com/fsprojects/dyfrig)
 - [Lightweight websites with F#](http://cockneycoder.wordpress.com/2014/09/03/lightweight-websites-with-f/)
+- [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp/blob/master/README.md)
 
 
