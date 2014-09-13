@@ -20,6 +20,8 @@ OWIN
 - [Understanding OWIN Forms authentication in MVC 5](http://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx)
 - [OWIN Authentication Middleware Architecture](http://brockallen.com/2013/08/07/owin-authentication-middleware-architecture/)
 - [A primer on OWIN cookie authentication middleware for the ASP.NET developer](http://brockallen.com/2013/10/24/a-primer-on-owin-cookie-authentication-middleware-for-the-asp-net-developer/)
+- [Basic Authentication with ASP.NET Web API Using OWIN Middleware](http://lbadri.wordpress.com/2013/07/13/basic-authentication-with-asp-net-web-api-using-owin-middleware/)
+- [OWIN Authentication Middleware for Hawk in Thinktecture.IdentityModel.45](http://lbadri.wordpress.com/2013/08/03/owin-authentication-middleware-for-hawk-in-thinktecture-identitymodel-45/)
 
 ### Middleware
 - [How to write OWIN middleware in 5 different steps](http://benfoster.io/blog/how-to-write-owin-middleware-in-5-different-steps)
