@@ -20,6 +20,7 @@ OWIN
 
 ### Middleware
 - [How to write OWIN middleware in 5 different steps](http://benfoster.io/blog/how-to-write-owin-middleware-in-5-different-steps)
+- [Owin middleware, ASP.NET Web API and client’s IP address](http://www.strathweb.com/2013/07/owin-middleware-asp-net-web-api-and-clients-ip-address/)
 
 ### No-IIS
 - [OWIN and NGINX](http://iobservable.net/blog/2013/08/01/owin-and-nginx/)
