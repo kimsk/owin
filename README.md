@@ -34,3 +34,11 @@ OWIN
 ### Misc.
 - [Microsoft’s new Web Server, Katana, Hits Version 3](http://www.infoq.com/news/2014/08/Katana-3?utm_source=infoqEmail&utm_medium=WeeklyNL_EditorialContentDotNet&utm_campaign=09022014news)
 - [Hosting nancy with owin](https://github.com/NancyFx/Nancy/wiki/Hosting-nancy-with-owin)
+
+### F#
+- [frank](https://github.com/frank-fs/frank)
+- [frost](https://github.com/xyncro/frost)
+- [dyfrig](https://github.com/fsprojects/dyfrig)
+- [Lightweight websites with F#](http://cockneycoder.wordpress.com/2014/09/03/lightweight-websites-with-f/)
+
+
