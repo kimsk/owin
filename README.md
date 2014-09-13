@@ -7,11 +7,13 @@ OWIN
 
 
 ### Introduction
-- [What’s this Owin Stuff About?](http://coding.abel.nu/2014/05/whats-this-owin-stuff-about/)
-- [Getting Started with the Katana Project](http://msdn.microsoft.com/en-us/magazine/dn451439.aspx)
-- [The Katana Project - OWIN for ASP.NET](http://channel9.msdn.com/Shows/Web+Camps+TV/The-Katana-Project-OWIN-for-ASPNET)
-- [OWIN - Run your C# for the web anywhere](http://vimeo.com/57007898)
-- [The future is now – OWIN and multi-hosting ASP.NET web applications](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
+- [What’s this Owin Stuff About? (5/20/2014)](http://coding.abel.nu/2014/05/whats-this-owin-stuff-about/)
+- [Getting Started with the Katana Project (10/2013)](http://msdn.microsoft.com/en-us/magazine/dn451439.aspx)
+- [The Katana Project - OWIN for ASP.NET (5/24/2013)](http://channel9.msdn.com/Shows/Web+Camps+TV/The-Katana-Project-OWIN-for-ASPNET)
+- [OWIN - Run your C# for the web anywhere (1/8/2013)](http://vimeo.com/57007898)
+- [Getting Started With OWIN and the Katana Stack (5/4/2013)](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
+- [The future is now – OWIN and multi-hosting ASP.NET web applications (5/5/2013)](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
+- [Owin, Katana and getting started (4/4/2013)](http://weblogs.asp.net/pglavich/owin-katana-and-getting-started)
 
 ### Authentication
 - [OWIN Authentication series by Anders Abel](http://coding.abel.nu/series/owin-authentication/)
