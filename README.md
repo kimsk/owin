@@ -37,9 +37,10 @@ OWIN
 - [Hosting nancy with owin](https://github.com/NancyFx/Nancy/wiki/Hosting-nancy-with-owin)
 
 ### F#
-- [frank](https://github.com/frank-fs/frank)
-- [frost](https://github.com/xyncro/frost)
-- [dyfrig](https://github.com/fsprojects/dyfrig)
+- [frank - A combinator library for building web apis using System.Net.Http.](https://github.com/frank-fs/frank)
+- [Frost for F# + OWIN](https://github.com/xyncro/frost)
+- [dyfrig - F# support for the Open Web Interface for .NET (OWIN)](https://github.com/fsprojects/dyfrig)
+- [taliesin - OWIN routing middleware using F# Agents](https://github.com/frank-fs/taliesin)
 - [Lightweight websites with F#](http://cockneycoder.wordpress.com/2014/09/03/lightweight-websites-with-f/)
 - [TodoBackendFSharp](https://github.com/panesofglass/TodoBackendFSharp/blob/master/README.md)
 
