@@ -14,6 +14,7 @@ OWIN
 - [Getting Started With OWIN and the Katana Stack (5/4/2013)](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
 - [The future is now – OWIN and multi-hosting ASP.NET web applications (5/5/2013)](http://www.strathweb.com/2013/05/the-future-is-now-owin-and-multi-hosting-asp-net-web-applications/)
 - [Owin, Katana and getting started (4/4/2013)](http://weblogs.asp.net/pglavich/owin-katana-and-getting-started)
+- [OWIN, Katana and SignalR – Breaking free from your Web Server (7/15/2013)](http://www.dotnetcurry.com/showarticle.aspx?ID=915)
 
 ### Identity/Authentication
 - [OWIN Authentication series by Anders Abel](http://coding.abel.nu/series/owin-authentication/)
