@@ -47,6 +47,9 @@ OWIN
 - [Hosting nancy with owin](https://github.com/NancyFx/Nancy/wiki/Hosting-nancy-with-owin)
 - [Designing Evolvable Web APIs with ASP.NET: Ch#11 Hosting](http://chimera.labs.oreilly.com/books/1234000001708/ch11.html)
 
+### Testing
+- [OWIN/Katana in-memory integration testing](http://www.strathweb.com/2013/12/owin-memory-integration-testing/)
+
 ### F\# 
 - [frank - A combinator library for building web apis using System.Net.Http.](https://github.com/frank-fs/frank)
 - [Frost for F# + OWIN](https://github.com/xyncro/frost)
