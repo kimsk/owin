@@ -49,6 +49,7 @@ OWIN
 
 ### Testing
 - [OWIN/Katana in-memory integration testing](http://www.strathweb.com/2013/12/owin-memory-integration-testing/)
+- [Unit testing OWIN applications using TestServer](http://blogs.msdn.com/b/webdev/archive/2013/11/26/unit-testing-owin-applications-using-testserver.aspx)
 
 ### F\# 
 - [frank - A combinator library for building web apis using System.Net.Http.](https://github.com/frank-fs/frank)
