@@ -1,6 +1,8 @@
 OWIN
 ====
 
+[History of OWIN](https://www.youtube.com/watch?v=xvrZU6NqtUA&feature=youtu.be) by [@panesofglass](https://github.com/panesofglass) at Codemash 2015
+
 [Open Web Interface for .NET](http://owin.org/).
 
 [Katana](http://katanaproject.codeplex.com/)
